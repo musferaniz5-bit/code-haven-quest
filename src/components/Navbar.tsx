@@ -55,7 +55,7 @@ const Navbar = () => {
               </Button>
             </a>
 
-            <Link to="/admin/login">
+            <Link to="/auth">
               <Button variant="outline">
                 Admin
               </Button>
