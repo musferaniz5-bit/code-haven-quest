@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Categories from "./pages/Categories";
 import CategoryView from "./pages/CategoryView";
+import ItemDetail from "./pages/ItemDetail";
 import AdminLogin from "./pages/AdminLogin";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/shop" element={<Shop />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/category/:id" element={<CategoryView />} />
+          <Route path="/item/:id" element={<ItemDetail />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
